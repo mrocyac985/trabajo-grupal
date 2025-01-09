@@ -1,52 +1,76 @@
 body {
-    background-color: rgb(158, 148, 218);
+    background-color: #948f8f;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:  #fccdcd;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 5px;
 }
 
 #titulo {
-    color: rgb(189, 55, 149);
-    margin: 0px 0px 15px 0px;
-    font-family: cursive;
+    margin: 0 0 15px 0;
+    font-size: 2em;
+    letter-spacing: .2rem;
+    text-shadow: 8px 8px 2px;
 }
-header {
-    background-color:violet;
-    color:rgb(3, 31, 43);
-    text-align: center;
-    padding: 15px 20px 15px 20px;
-    font-family: cursive;
-}
+
 #menuPrincipal {
-    background-color: violet;
-
+    background-color: #f1b0b0;
+    padding: 5px 0;
 }
-nav ul {
+
+#menuPrincipal ul {
     list-style: none;
-    padding: 0px 0px 0px 0px ;
+    padding: 0;
 }
-nav ul li {
-     display: inline;
-     margin: 0px 15px 0px 15px;
-}
-a{
-    text-decoration: none;
-    color:rgb(3, 31, 43);
-    padding: 10px 20px 10px 20px;
-}
-h2 {
-    background-color: thistle;
-    color:rgb(3, 31, 43);
-    padding: 10px 10px 10px 10px; 
-}
-article {
-    border: 1px solid #a936c0;
-    background-color: #a936c0;
-    margin: 0px 0px 10px 0px;
-    padding:10px 10px 10px 10px;
-}
-footer {
-    background-color: rgb(189, 55, 149);
-    color:rgb(12, 6, 43);
-    text-align: center;
-    padding: 10px 10px 10px 10px; 
-    margin: 0px 0px 20px 0px;
 
+#menuPrincipal ul li {
+    display: inline-block;
+    margin: 0 15px;
 }
+
+.enlaceMenuPrincipal {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.enlaceMenuPrincipal:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.tituloSeccion {
+    background-color:  #dfa8a8;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+article {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f5abab;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+   
