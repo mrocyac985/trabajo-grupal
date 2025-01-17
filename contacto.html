@@ -24,9 +24,33 @@
           <article>
             <p>Si tienes algunas algunas preguntas, sugerencias, dudas no dudes en contactarnos a nosotros y rellenar este formulario.</p>
           <p>Todas estamos ansiosos por escucharte y trabajar juntos </p>
-               <label for="nombre">Nombre:</label>
-      <input class="cuadrotexto"type="text" id="nombre" name="nombre">
+               
+<div id="contenedorFormulario">
+				<form action="#" method="post">
+					<label for="nombre">Tu nombre:</label><br>
+					<input class="cuadroTexto" type="text" id="nombre" name="nombre">
 
+					<label for="email">Tu correo electrónico:</label><br>
+					<input class="cuadroTexto" type="email" id="email" name="email">
+
+					¿Cómo nos conociste?<br>
+					<label for="rrss">
+						<input type="checkbox" id="rrss" name="conoce"> Por las Redes Sociales
+					</label><br>
+					<label for="publicidad">
+						<input type="checkbox" id="publicidad" name="conoce"> Por publicidad
+					</label><br>
+					<label for="bocaboca">
+						<input type="checkbox" id="bocaboca" name="conocer"> Por el boca a boca
+					</label><br><br>
+
+
+					<label for="mensaje">Tu mensaje:</label><br>
+					<textarea class="cuadroTexto" id="mensaje" name="mensaje" rows="6"></textarea><br>
+
+					<button type="submit">Enviar Mensaje</button>
+				</form>
+			</div>
           </article>
         </section>
       </main>
